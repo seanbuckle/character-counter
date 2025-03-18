@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Character counter</title>
+
+  <title>Character Counter</title>
 </head>
+
 <body>
-
-  Analyze your text in real-time.
-
-  Start typing here… (or paste your text)
-
-  Exclude Spaces
-  Set Character Limit
-
-  Approx. reading time: <!-- Insert number --> minutes
-
-  <!-- Insert number -->
-  Total Characters
-
-  <!-- Insert number -->
-  Word Count
-
-  <!-- Insert number -->
-  Sentence Count
-
-  Letter Density
-  No characters found. Start typing to see letter density.
-
+  <header><a href="">Character Counter</a><button></button></header>
+  <main>
+    <h1>Analyze your text in real-time.</h1>
+    <textarea name="" id="count" placeholder="Start typing here... (or paste your text)"></textarea>
+    <input type="checkbox" id="exclude"><label for="exclude">Exclude Spaces</label><input type="checkbox"
+      id="limit"><label for="limit">Set Character
+      Limit</label><input type="number"><label for="">Approx. reading time: <span id="minutes">0</span> minutes</label>
+    <section><label for="">Total Characters</label></section>
+    <section><label for="">Word Count</label></section>
+    <section><label for="">Sentence Count</label></section>
+    <section>
+      <label for="">Letter Density</label>
+      <p>No characters found. Start typing to see letter density.</p>
+    </section>
+  </main>
+  <footer>Character Counter &copy; Sean Buckle</footer>
 </body>
+
 </html>
